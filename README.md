@@ -11,6 +11,10 @@ The motivation of this project is to employ techniques like LSH, min hashing and
 ## Brief Overview of Solution
 The solution involves implementing the minhash and LSH algorithm using Yelp's dataset, focusing on a binary rating system where a user's interaction with a business is marked as 1 (rated) or 0 (not rated). The goal is to find business pairs with a Jaccard similarity of 0.5 or higher, indicating a strong similarity in the customer base's preferences. The approach is as follows:
 
+
+![Discovery of Similar Businesses Approach](https://github.com/DharmikNaik/Similar-Businesses-on-Yelp-for-Recommendations/blob/master/images/DiscoveryOfSimilarBusinessesApproach.drawio.png)
+
+
 1. Building representation of businesses (items)
 Data Processing: Utilizing yelp_train.csv, we transform the user-business interactions into a binary matrix, representing whether a user has rated a business or not.
 
