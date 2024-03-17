@@ -1,0 +1,1 @@
+Run all integration tests in vocareum cloud.

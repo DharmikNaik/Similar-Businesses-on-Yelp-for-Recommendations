@@ -1,0 +1,4 @@
+venv
+.idea
+job_zip.zip
+tests/.pytest_cache
