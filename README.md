@@ -39,3 +39,6 @@ Result Output: The identified business pairs are saved into a CSV file, maintain
 3. Currently, the project does batch processing of the data. Future direction would be getting a new item representation in a stream and finding similar items from the pool of already seen items. This would involve persisting the hash buckets used in LSH. An even more practical improvement would be to update the representations of the businesses as new ratings are streamed and rehashing the updated signature in the LSH buckets.  
 4. Build a comprehensive test suite and a CI pipeline to streamline robust future development and updates.
 
+## References
+1. [Mining of Massive Datasets - Jure Leskovec, Anand Rajaraman, Jeff Ullman](http://www.mmds.org/#ver21)
+2. "Proceedings. Compression and Complexity of SEQUENCES 1997 (Cat. No.97TB100171)," Proceedings. Compression and Complexity of SEQUENCES 1997 (Cat. No.97TB100171), Salerno, Italy, 1997, pp. iii-, doi: 10.1109/SEQUEN.1997.666897.
